@@ -1,0 +1,31 @@
+.inputOption {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.inputOption:hover {
+  background-color: whitesmoke;
+}
+.inputOption > h3 {
+  color: gray;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.feed__inputOptions__photoIcon {
+  color: rgb(105, 177, 196);
+}
+.feed__inputOptions__videoIcon {
+  color: orange;
+}
+.feed__inputOptions__eventIcon {
+  color: gray;
+}
+.feed__inputOptions__writeArticleIcon {
+  color: rgb(165, 77, 99);
+}

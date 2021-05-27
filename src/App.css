@@ -1,0 +1,18 @@
+.App {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__bodyContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.app__body {
+  display: flex;
+  margin-top: 50px;
+  width: 1000px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
